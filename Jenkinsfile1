@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        jdk 'jdk17'     // ✅ Use the JDK that exists in Jenkins
-        nodejs 'node23' // Node.js tool from Jenkins
+        jdk 'jdk17'     
+        nodejs 'node23' 
     }
 
     environment {
